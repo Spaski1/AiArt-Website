@@ -1,0 +1,58 @@
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.deps.json
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.AssemblyInfoInputs.cache
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.AssemblyInfo.cs
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.csproj.CoreCompileInputs.cache
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\refint\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ref\ArtShop.Entities.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.deps.json
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.AssemblyInfoInputs.cache
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.AssemblyInfo.cs
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.csproj.CoreCompileInputs.cache
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\refint\ArtShop.Entities.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ref\ArtShop.Entities.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.deps.json
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.AssemblyInfoInputs.cache
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.AssemblyInfo.cs
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.csproj.CoreCompileInputs.cache
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.sourcelink.json
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\refint\ArtShop.Entities.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ref\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.deps.json
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.AssemblyInfoInputs.cache
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.AssemblyInfo.cs
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.csproj.CoreCompileInputs.cache
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.sourcelink.json
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\obj\Debug\net8.0\refint\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ref\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.deps.json
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.AssemblyInfoInputs.cache
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.AssemblyInfo.cs
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.csproj.CoreCompileInputs.cache
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.sourcelink.json
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\obj\Debug\net8.0\refint\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Entities\obj\Debug\net8.0\ref\ArtShop.Entities.dll

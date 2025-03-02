@@ -1,0 +1,108 @@
+.parentContainer{
+    background-image: url("../../../../../public/bg.jpg");
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tabs{
+    margin-top:40px;
+    margin-bottom: 40px;
+    background-color: rgba(159, 139, 139, 0.356);
+    border-radius: 5%;
+    box-shadow: 0 0 30px rgba(220, 210, 210, 0.507);
+    width: 70%;  
+}
+
+.example-large-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+.example-large-box {
+    max-width: 93%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.secondTab{
+    margin:5px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imageContainer {
+    max-width: 55%;
+}
+.formContainer{
+    font-weight: 500;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.2em;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    span{
+        font-size: 0.7em;
+    }
+    p{
+        padding: 0px;
+        margin: 0px;
+    }
+}
+.image{
+    max-width: 100%;
+    max-height: 500px;
+}
+.form, .btnContainer{
+    width: 100%;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.btnContainer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+@media screen and (max-width: 800px) {
+    .secondTab{
+        flex-direction: column;  
+        padding: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        justify-content: center;
+    
+    }
+
+    .formContainer{
+        max-width: 100%;
+        justify-content: center;
+        align-items:center;
+        gap: 5px;
+        span{
+        font-size: 0.7em;
+    }
+    }
+    .imageContainer {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,296 @@
+<section class="hero-section">
+  <div class="hero-text">
+    <h1>Create like never before.</h1>
+    <div class="stats">
+      <div class="stat">
+        <h2>27k+</h2>
+        <p>Artworks</p>
+      </div>
+      <div class="stat">
+        <h2>12k+</h2>
+        <p>Artists</p>
+      </div>
+      <div class="stat">
+        <h2>92%</h2>
+        <p>Faster Technology</p>
+      </div>
+    </div>
+    <p>
+      Create characters, artworks and more with multiple tools, powered by AI.
+    </p>
+    <button class="get-started" routerLink="/generate-your-art">
+      GET STARTED
+    </button>
+  </div>
+  <div class="hero-image">
+    <img
+      src="./hero.png"
+      alt="Abstract 3D Model of a Human Head with Colorful Geometric Shapes and Patterns"
+    />
+  </div>
+</section>
+<div id="scroll-container">
+  <div id="scroll-text">
+    95% goes to the artists, 5% fuels our platforms's innovation!
+  </div>
+</div>
+<!--SERVICES-->
+<div class="services">
+  <div class="services-container">
+    <div class="service-box">
+      <div class="icon">
+        <img src="/icon-d.png" alt="" width="60px" />
+      </div>
+      <h3>Huge Collection</h3>
+      <p>
+        Explore a vast gallery of digital artworks from diverse genres and
+        styles.
+      </p>
+    </div>
+    <div class="service-box">
+      <div class="icon">
+        <img src="/icon-d.png" alt="" width="60px" />
+      </div>
+      <h3>High Quality</h3>
+      <p>Experience high-resolution, meticulously crafted digital art.</p>
+    </div>
+    <div class="service-box">
+      <div class="icon">
+        <img src="/icon-d.png" alt="" width="60px" />
+      </div>
+      <h3>Big Community</h3>
+      <p>
+        Connect with a growing community of artists and digital art enthusiasts.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--SPINNER-->
+<span> Most Popular Creator Picks </span>
+<div class="carouselContainer">
+  <div id="carousel">
+    <div
+      *ngFor="let item of items; let i = index"
+      [ngClass]="{
+        hideLeft: isClassApplied(i, 'hideLeft'),
+        prevLeftSecond: isClassApplied(i, 'prevLeftSecond'),
+        prev: isClassApplied(i, 'prev'),
+        selected: isClassApplied(i, 'selected'),
+        next: isClassApplied(i, 'next'),
+        nextRightSecond: isClassApplied(i, 'nextRightSecond'),
+        hideRight: isClassApplied(i, 'hideRight')
+      }"
+    >
+      <img [src]="item.src" alt="carousel image" />
+    </div>
+  </div>
+  <div class="buttons">
+    <button
+      mat-raised-button
+      color="primary"
+      id="prev"
+      (click)="moveToSelected('prev')"
+    >
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <button
+      mat-raised-button
+      color="primary"
+      id="next"
+      (click)="moveToSelected('next')"
+    >
+      <mat-icon>arrow_forward</mat-icon>
+    </button>
+  </div>
+</div>
+
+<!--GENERATE SECTION-->
+<div class="generate">
+  <picture>
+    <img
+      src="https://t3.ftcdn.net/jpg/02/07/16/88/360_F_207168841_GxQxJNkenNwA2i5Yv5yEA9Ff9do48mXF.jpg"
+      width="3840"
+      height="2160"
+      alt="background"
+    />
+  </picture>
+  <figure>
+    <h1>Generate Your Art</h1>
+    <figcaption>
+      With our AI-driven art creator, crafting stunning and one-of-a-kind
+      artwork is effortless. Select your preferred style, and let the technology
+      bring your vision to life. Perfect for artists, designers, and anyone
+      looking to showcase their creativity on our platform.
+    </figcaption>
+    <div class="generate-art-button">
+      <a routerLink="/generate-your-art"
+        ><i class="fas fa-magic"></i> Get Started</a
+      >
+    </div>
+  </figure>
+</div>
+<!--BEST SELLERS-->
+<div class="containerSellers">
+  <div class="section-title">Top Sellers</div>
+  <div class="top-sellers-container">
+    <div class="top-sellers">
+      <div class="top-seller-card">
+        <img
+          src="https://i.pinimg.com/564x/a2/18/08/a218081fb6df312e87ac6fe7e110a89d.jpg"
+          alt="Portrait of Leighton Kramer"
+        />
+        <h3>Leighton Kramer</h3>
+      </div>
+      <div class="top-seller-card">
+        <img
+          src="https://i.pinimg.com/564x/54/fc/31/54fc31368ed931ba74fa8890a9d803aa.jpg"
+          alt="Portrait of Haylie Arcand"
+        />
+        <h3>Haylie Arcand</h3>
+      </div>
+      <div class="top-seller-card">
+        <img
+          src="https://i.pinimg.com/564x/ee/59/e0/ee59e0d6c1b3577d9366141d115353e6.jpg"
+          alt="Portrait of Bowen Higgins"
+        />
+        <h3>Bowen Higgins</h3>
+      </div>
+      <div class="top-seller-card">
+        <img
+          src="https://i.pinimg.com/564x/ce/59/e9/ce59e99797f8a67306c80fa9a0b1b3f9.jpg"
+          alt="Portrait of Saige Fuentes"
+        />
+        <h3>Saige Fuentes</h3>
+      </div>
+      <div class="top-seller-card">
+        <img
+          src="https://i.pinimg.com/564x/e8/a6/40/e8a64056e121a69bafb9d21f8ee15ee4.jpg"
+          alt="Portrait of Sophie Mclain"
+        />
+        <h3>Sophie Mclain</h3>
+      </div>
+      <div class="top-seller-card">
+        <img
+          src="https://i.pinimg.com/564x/68/cc/dd/68ccddc2d4597d9befef5557a6e4ab04.jpg"
+          alt="Portrait of Jeremy Burch"
+        />
+        <h3>Jeremy Burch</h3>
+      </div>
+      <div class="top-seller-card">
+        <img
+          src="https://i.pinimg.com/564x/e9/54/87/e95487e090663b40f5c8c2cfca6ff502.jpg"
+          alt="Portrait of Amelie Griffith"
+        />
+        <h3>Amelie Griffith</h3>
+      </div>
+      <div class="top-seller-card">
+        <img
+          src="https://i.pinimg.com/564x/8b/9e/ca/8b9ecad7b1eb6a5071a998394e69a257.jpg"
+          alt="Portrait of Isabela Hart"
+        />
+        <h3>Isabela Hart</h3>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CATEGORIES-->
+
+<div class="card-container">
+  <div class="section-title">Browse By Categories</div>
+
+  <!-- Use routerLink to navigate to different paths -->
+  <a routerLink="/categories" class="card">
+    <h2>Abstract</h2>
+  </a>
+
+  <a routerLink="/categories" class="card">
+    <h2>Art & Design</h2>
+  </a>
+
+  <a routerLink="/categories" class="card">
+    <h2>Acrylic</h2>
+  </a>
+
+  <a routerLink="/categories" class="card">
+    <h2>Canvas</h2>
+  </a>
+
+  <a routerLink="/categories" class="card">
+    <h2>Black & White</h2>
+  </a>
+</div>
+<!--support section-->
+<div class="support-section">
+  <div class="section-title">Need Help?</div>
+  <p>
+    We’re here for you. Whether you have questions about our platform or need
+    assistance with your account, feel free to contact us anytime.
+  </p>
+  <div class="support-info">
+    <p><strong>Email:</strong> aiart&#64;mail.com</p>
+  </div>
+  <button class="support-button" routerLink="/contact">Contact Support</button>
+</div>
+<!--footer-->
+<footer class="footer">
+  <div class="container">
+    <div class="logo">
+      <img
+        src="/logo2.png"
+        width="100px"
+        alt="Company logo with a stylized image of a mountain and sun"
+      />
+    </div>
+    <div class="column">
+      <h3>About</h3>
+      <p>
+        A platform offering a variety of creative digital content, designed to
+        inspire and meet the needs of a diverse audience.
+      </p>
+    </div>
+    <div class="column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/about">About Us</a></li>
+        <li><a routerLink="/generate-your-art">Generate Your Art</a></li>
+        <li><a routerLink="/contact">Contact</a></li>
+        <li><a routerLink="/register">Sign Up</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>Categories</h3>
+      <ul>
+        <li><a routerLink="/categories">Acrylic</a></li>
+        <li><a routerLink="/categories">Abstract</a></li>
+        <li><a routerLink="/categories">Black And White</a></li>
+        <li><a routerLink="/categories">Art And Design</a></li>
+        <li><a routerLink="/categories">Canvas</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a
+          href="https://www.twitter.com/"
+          target="_blank"
+          style="display: flex; align-items: center"
+          ><img width="19px" src="x-twitter.svg" alt=""
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/" target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      </div>
+    </div>
+    <div class="footer-stylish-bottom">
+      <p>&copy; 2024 AiArtist. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,24 @@
+.categoriesContainer{
+   
+    background: linear-gradient(to left, #000 10%, #291d37 100%) content-box;;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inconsolata", monospace;
+
+   
+}
+
+.noItems{
+  
+  
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.5em;
+    color: #71499d;
+    display: flex;
+    justify-content: center;
+}
+
+

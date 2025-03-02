@@ -1,0 +1,1191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Remove default margin */
+
+h2,
+p {
+    margin: 0;
+}
+
+/* BODY */
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+/* NAVBAR */
+
+.active {
+    background-color: red;
+}
+
+.navigation-bar {
+    display: flex;
+    width: 100%;
+}
+
+.first-nav-container,
+.second-nav-container {
+
+    margin: 5px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.searchLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+
+.navbar-brand {
+    width: 80px;
+    height: 65px;
+}
+
+.logoImg {
+    width: 80px;
+    height: 55px;
+
+}
+
+h4 {
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    text-shadow: #474747 3px 5px 2px;
+    font-size: 1.7em;
+    margin: 0px 5px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.first-nav {
+    padding: 8px 0px;
+}
+
+.div-search {
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+}
+
+.searchInput {
+    width: 450px;
+    padding: 2px;
+    font-size: 1.1em;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #474747;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.btn-toggler {
+    background-color: #474747;
+}
+
+.searchInput::placeholder {
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+
+.searchInput:hover {
+    cursor: pointer;
+}
+
+.first-nav,
+.second-nav {
+    background-color: rgb(52, 46, 46);
+    color: whitesmoke;
+}
+
+.cart-navItems {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.navList {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: whitesmoke;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.list-cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 4px 13px;
+    background-color: #474747;
+    border-radius: 10px;
+}
+
+.list-cart a {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    background-color: #474747;
+    border-radius: 10px;
+}
+
+.nav-item a {
+    padding: 4px 13px;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+.cart-icon-img {
+    width: 35px;
+    height: 30px;
+}
+
+.test-cart {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+
+.second-nav {
+    padding: 0px;
+    display: flex;
+
+}
+
+.navPages {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link,
+.second-nav-links {
+    color: whitesmoke;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+}
+
+.second-nav-links:hover {
+    color: whitesmoke;
+    font-weight: 450;
+    background-color: #474747;
+    border-radius: 10px;
+
+}
+
+/* END NAV BAR */
+
+
+
+/* GALLERY */
+section {
+    background-color: rgb(197, 105, 105, 0.2);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.galleryWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+    padding: 30px 100px
+}
+
+.galleryWrapper p {
+
+    padding: 55px;
+}
+
+.galleryWrapper div:hover {
+    box-shadow: 10px 10px 8px rgba(139, 128, 128, 0.347), 15px 15px 8px rgba(71, 69, 69, 0.347);
+}
+
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.txt p {
+    color: #474747;
+    text-align: start;
+    padding-top: 10px;
+    margin: 0px;
+    padding: 10px 10px 30px 0px;
+    font-size: 1.1rem;
+}
+
+.txt h2 {
+    padding-top: 30px;
+    color: #474747;
+}
+
+.img-con img {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+/* END GALLERY */
+
+
+/* SELECT INPUTS */
+
+.offcanvas-header {
+    background-color: rgb(197, 105, 105, 0.2);
+}
+
+.offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: rgb(197, 105, 105, 0.2);
+
+}
+
+.offcanvasHeading {
+    margin-bottom: 10px;
+    ;
+    padding-top: 40px;
+    font-size: 2em;
+    color: #474747;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.select-div {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    align-content: center;
+    font-size: 1.1em;
+}
+
+select {
+    height: 45px;
+    font-family: var(--font-text);
+}
+
+option {
+    margin-top: 3px;
+    font-size: 1.1em;
+}
+
+.logoOC {
+    padding-bottom: 40px;
+
+}
+
+/* END SELECTS AND OFFCANVAS */
+
+
+/* BUTTONS(SORT AND FILTER) */
+.filterOptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 30px;
+
+}
+
+.btn {
+    height: 40px;
+    font-size: 1.1em;
+
+}
+
+.sort-buttons {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.btn:hover {
+    border: 2px solid #4747475c;
+}
+
+.activeBtn {
+    border: 2px solid #474747;
+}
+
+/* END  BUTTONS(SORT AND FILTER)*/
+
+
+
+
+/* PAGE NUMBERS */
+.page-numbers button {
+    background-color: rgb(52, 46, 46);
+    color: white;
+    margin: 50px 0px;
+    width: 40px;
+    border: none;
+    border-radius: 35%;
+}
+
+.page-numbers button:hover {
+    color: rgb(52, 46, 46);
+    background-color: rgb(197, 105, 105, 0.2);
+    width: 50px;
+
+}
+
+
+/* END PAGE NUMBERS */
+
+
+
+
+/* ANIMATION IF NO ITEMS FOUND FROM SEARCH INPUT*/
+.noItems {
+    width: 300px;
+    height: 300px;
+}
+
+#noItemsFound {
+    display: none;
+}
+
+
+
+/* CARDS-IMAGES */
+.card-img {
+    padding: 50px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    place-items: center;
+}
+
+:root {
+    --brand-color: rgb(194, 142, 142);
+    ;
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    --font-title: "Poppins", sans-serif;
+    --font-text: "Poppins", sans-serif;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-family: var(--font-title);
+    color: var(--white);
+    line-height: 1.4;
+}
+
+p {
+    font-family: var(--font-text);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: var(--white);
+}
+
+.flow>*+* {
+    margin-top: var(--flow-space, 1em);
+}
+
+.card {
+    display: grid;
+    place-items: center;
+    width: 90%;
+    height: 20vh;
+    max-width: 21.575rem;
+    height: 28.025rem;
+    overflow: hidden;
+    border-radius: 0.625rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.card>* {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.card__background {
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+.card__content {
+    --flow-space: 0.9375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-end;
+    height: 70%;
+    width: 100%;
+    padding: 12% 1.25rem 1.875rem;
+    background: linear-gradient(180deg,
+            hsla(0, 0%, 0%, 0) 0%,
+            hsla(0, 0%, 0%, 0.3) 10%,
+            hsl(0, 0%, 0%) 100%);
+}
+
+.card__content--container {
+    --flow-space: 1.25rem;
+
+
+}
+
+
+.card__title {
+    position: relative;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.card__title::after {
+    content: "";
+    position: absolute;
+    height: 0.3125rem;
+    width: calc(100% + 1.25rem);
+    bottom: calc((1.25rem - 0.5rem) * -1);
+    left: -1.25rem;
+    background-color: var(--brand-color);
+}
+
+.card__button,
+.details__button {
+
+    cursor: pointer;
+    width: 30px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card__description {
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+@media (any-hover: hover) and (any-pointer: fine) {
+    .card__content {
+        transform: translateY(62%);
+        transition: transform 500ms ease-out;
+        transition-delay: 500ms;
+    }
+
+    .card__title::after {
+        opacity: 0;
+        transform: scaleX(0);
+        transition: opacity 1000ms ease-in, transform 500ms ease-out;
+        transition-delay: 500ms;
+        transform-origin: right;
+    }
+
+    .card__background {
+        transition: transform 500ms ease-in;
+    }
+
+    .card__content--container> :not(.card__title),
+    .card__button {
+        opacity: 0;
+        transition: transform 500ms ease-out, opacity 500ms ease-out;
+    }
+
+    .card:hover,
+    .card:focus-within {
+        transform: scale(1.05);
+        transition: transform 500ms ease-in;
+    }
+
+    .card:hover .card__content,
+    .card:focus-within .card__content {
+        transform: translateY(0);
+        transition: transform 500ms ease-in;
+    }
+
+    .card:focus-within .card__content {
+        transition-duration: 0ms;
+    }
+
+    .card:hover .card__background,
+    .card:focus-within .card__background {
+        transform: scale(1.3);
+    }
+
+    .card:hover .card__content--container> :not(.card__title),
+    .card:hover .card__button,
+    .card:focus-within .card__content--container> :not(.card__title),
+    .card:focus-within .card__button {
+        opacity: 1;
+        transition: opacity 500ms ease-in;
+        transition-delay: 1000ms;
+    }
+
+    .card:hover .card__title::after,
+    .card:focus-within .card__title::after {
+        opacity: 1;
+        transform: scaleX(1);
+        transform-origin: left;
+        transition: opacity 500ms ease-in, transform 500ms ease-in;
+        transition-delay: 500ms;
+    }
+
+
+}
+
+/* END OF CARDS-IMAGES */
+
+
+/* POP UP */
+#image-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.image-card {
+    margin: 10px;
+    cursor: pointer;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.331);
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+
+#popup-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    background: #ffffffc1;
+    margin: 5px;
+    padding: 30px 20px;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 800px;
+    filter: blur(0px);
+    box-shadow: -10px 9px rgba(156, 84, 84, 0.459);
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(23, 22, 22);
+
+}
+
+.pop-wrapper {
+    display: flex;
+    background-image: url('../icons/art.png');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 95%;
+
+    margin: 0;
+    padding: 0px;
+    border: 7px solid rgba(194, 162, 162, 0.459);
+    padding: 10px;
+
+}
+
+.imageDiv {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.popup-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 550px;
+    max-height: 450px;
+    border: 5px double whitesmoke;
+}
+
+.infoPopup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+.txtDiv {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#btnDiv p {
+    margin: 10px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+#popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.popup-text {
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 20px 5px;
+
+}
+
+.popup-text p {
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(23, 22, 22);
+}
+
+.popup-text p span {
+    font-weight: 600;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.add {
+    width: 36px;
+}
+
+
+
+/* END POP UP */
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: rgb(52, 46, 46);
+    color: whitesmoke;
+}
+
+.text-white,
+.mb-2,
+.text-uppercase {
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* END FOOTER */
+
+
+/*  MEDIA QUERIES  */
+
+@media only screen and (min-width: 1550px) {
+
+
+    .galleryWrapper {
+        gap: 150px;
+        padding: 30px 150px
+    }
+
+    .galleryWrapper p {
+
+        padding: 80px;
+    }
+
+    .txt {
+        padding: 20px;
+    }
+
+    .txt p {
+        padding-top: 20px;
+        font-size: 1.3rem;
+    }
+
+    .img-con img {
+        width: 500px;
+
+    }
+
+
+    .card-img {
+        padding: 40px 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    }
+}
+
+
+@media only screen and (max-width: 1470px) {
+    .navigation-bar {
+        flex-wrap: wrap;
+
+    }
+
+    .first-nav-container,
+    .second-nav-container {
+        margin: 5px 30px;
+    }
+
+
+    .searchLogo {
+        gap: 60px;
+    }
+
+    .logo {
+        gap: 15px;
+    }
+
+    .navbar-brand {
+        width: 75px;
+        height: 60px;
+    }
+
+    .logoImg {
+        width: 70px;
+        height: 60px;
+        border-radius: 30% 30% 20%;
+    }
+
+    h4 {
+        font-size: 1.7em;
+    }
+
+    .first-nav {
+        padding: 8px 0px;
+    }
+
+    .div-search {
+        width: 500px;
+    }
+
+    .searchInput {
+        width: 350px;
+        font-size: 1em;
+        height: 40px;
+    }
+
+    .navList {
+        gap: 20px;
+    }
+
+
+
+    .img-con img {
+        width: 450px;
+
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+
+    .searchLogo {
+
+        gap: 40px;
+    }
+
+    .logo {
+
+        gap: 10px;
+    }
+
+    .navbar-brand {
+        width: 75px;
+        height: 60px;
+    }
+
+    .logoImg {
+        width: 60px;
+        height: 50px;
+        border-radius: 20% 20% 10%;
+    }
+
+    h4 {
+        font-size: 1.7em;
+
+    }
+
+
+    .div-search {
+        width: 300px;
+    }
+
+    .searchInput {
+        width: 250px;
+
+
+    }
+
+    .navList {
+        gap: 10px;
+
+    }
+
+    .card-img {
+        padding: 40px 50px;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .galleryWrapper {
+        gap: 50px;
+        padding: 30px 50px
+    }
+
+    .galleryWrapper p {
+
+        padding: 30px;
+    }
+
+    .txt h2 {
+        padding-top: 10px;
+
+    }
+
+    .txt {
+        padding: 15px;
+    }
+
+    .txt p {
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+
+    .img-con img {
+        width: 300px;
+
+    }
+
+    #popup {
+
+        flex-wrap: wrap;
+
+    }
+
+    #popup-content {
+        flex-wrap: wrap;
+        padding: 20px 20px;
+        max-width: 900px;
+        max-height: 700px;
+
+    }
+
+    .popup-image {
+        max-width: 450px;
+        max-height: 350px;
+    }
+
+    .infoPopup {
+        flex-wrap: wrap;
+    }
+
+    .popup-text {
+        font-size: 1.1rem;
+        padding: 10px 5px;
+    }
+
+    .add {
+        height: 36px;
+    }
+
+}
+
+@media only screen and (max-width: 841px) {
+
+    .searchLogo {
+
+        gap: 20px;
+    }
+
+
+    h4 {
+        font-size: 1.5em;
+
+    }
+
+    .div-search {
+        width: 200px;
+    }
+
+    .searchInput {
+        width: 200px;
+    }
+
+    .navList {
+        padding-top: 10px;
+        gap: 15px;
+
+    }
+
+    .card-img {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .galleryWrapper {
+
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 30px 30px
+    }
+
+    .galleryWrapper p {
+        padding: 15px;
+    }
+
+    .txt h2 {
+        padding-top: 10px;
+
+    }
+
+    .txt {
+        padding: 10px;
+    }
+
+    .txt p {
+        padding-top: 20px;
+        font-size: 0.9rem;
+    }
+
+    .img-con img {
+        width: 250px;
+
+    }
+
+    #popup {
+
+        flex-wrap: wrap;
+
+    }
+
+    #popup-content {
+        flex-wrap: wrap;
+        padding: 20px 20px;
+        max-width: 900px;
+        max-height: 700px;
+
+    }
+
+    .popup-image {
+        max-width: 450px;
+        max-height: 350px;
+    }
+
+    .infoPopup {
+        justify-content: flex-start;
+        gap: 0px;
+    }
+
+    .popup-text {
+        font-size: 1.1rem;
+        padding: 20px 5px;
+    }
+
+    .add {
+        height: 36px;
+
+    }
+}
+
+@media only screen and (max-width: 705px) {
+    .pop-wrapper {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+
+    .popup-image {
+        max-width: 400px;
+        max-height: 300px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 564px) {
+
+    .galleryWrapper {
+        padding: 15px 5px;
+    }
+
+    .card-img {
+
+        grid-template-columns: 1fr;
+        padding: 0px;
+    }
+
+    .txt p {
+        font-size: 1rem;
+    }
+
+    .txt h2 {
+        padding-top: 20px;
+
+    }
+
+    .txt {
+        justify-content: flex-start;
+    }
+
+    .filterOptions {
+        margin: 0px;
+    }
+
+    .imageDiv {
+        padding: 0px;
+        margin: 0px
+    }
+
+    .popup-image {
+        max-width: 450px;
+        max-height: 250px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .popup-image {
+        max-width: 350px;
+        max-height: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    .searchLogo {
+        flex-flow: column wrap;
+        gap: 10px;
+    }
+
+    .logoImg {
+        width: 80px;
+        height: 60px;
+       
+    }
+    
+    h4 {
+        font-size: 2em;
+    
+    }
+
+    .div-search {
+        flex-wrap: wrap;
+        width: 200px;
+    }
+
+    .searchInput {
+        width: 200px;
+    }
+
+    .navList {
+        gap: 5px;
+
+    }
+
+    .nav-item span {
+        display: none;
+    }
+
+    .txt h2 {
+        font-size: 1em;
+    }
+
+    .txt {
+        justify-content: flex-start;
+    }
+
+    .txt p {
+        text-align: justify;
+        width: 100%;
+        margin: 0;
+    }
+
+    .popup-image {
+        max-width: 250px;
+        max-height: 200px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .img-con img {
+        width: 150px;
+        height: 150px;
+    }
+}

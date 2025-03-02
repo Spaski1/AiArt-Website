@@ -1,0 +1,231 @@
+.form fieldset {
+    border: none;
+    padding: 0;
+    padding: 10px 0;
+}
+
+.form fieldset.fieldset-expiration {
+    float: left;
+    width: 60%;
+}
+
+.form fieldset.fieldset-expiration .select {
+    width: 84px;
+    margin-right: 12px;
+    float: left;
+}
+
+.form fieldset.fieldset-ccv {
+    clear: none;
+    float: right;
+    width: 86px;
+}
+
+.form fieldset label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Inconsolata;
+}
+
+.form fieldset input,
+.form fieldset .select {
+    width: 100%;
+    height: 38px;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form fieldset input.input-cart-number,
+.form fieldset .select.input-cart-number {
+    width: 82px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.form fieldset input.input-cart-number:last-child,
+.form fieldset .select.input-cart-number:last-child {
+    margin-right: 0;
+}
+
+.checkout {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: transparent;
+    margin-top: 30px;
+}
+
+.credit-card-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.flip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+}
+.credit-card-box .front
+{
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    backface-visibility: hidden;
+    font-family: "Inconsolata", monospace, Roboto, "Helvetica Neue", sans-serif;
+    background: linear-gradient(to top right, #000 5%, #47335e 100%) content-box;
+    position: absolute;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow:1px 2px 4px #9a89a9, 0 0 20px #cac3d16c, 0 0 5px #9b6dc9;
+   
+}
+
+
+
+.credit-card-box .logo {
+    position: absolute;
+    top: 9px;
+    right: 20px;
+    width: 60px;
+}
+
+.credit-card-box .logo svg {
+    width: 100%;
+    height: auto;
+    fill: #4e41d7;
+}
+
+
+.credit-card-box .number {
+    position: absolute;
+    margin: 0 auto;
+    top: 103px;
+    left: 19px;
+    font-size: 28px;
+}
+
+.credit-card-box label {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    opacity: 0.5;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.credit-card-box .card-holder,
+.credit-card-box .card-expiration-date {
+    position: absolute;
+    margin: 0 auto;
+    top: 180px;
+    left: 19px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.credit-card-box .card-expiration-date {
+    text-align: right;
+    left: auto;
+    right: 20px;
+}
+
+.credit-card-box .ccv {
+    height: 36px;
+    background: #fff;
+    width: 91%;
+    border-radius: 5px;
+    top: 110px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0 auto;
+    color: #000;
+    text-align: right;
+    padding: 10px;
+}
+
+.credit-card-box .ccv label {
+    margin: -25px 0 14px;
+    color: #fff;
+}
+
+
+.field{
+    width: 100%;
+    
+    
+}
+.min-field{
+    width: 100%;
+}
+
+.input-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.select-date, .card-cvc{
+    display: flex;
+    justify-content: center;
+}
+
+.btnCnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigContainer{
+    padding: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+}
+@media screen and (max-width:700px ) {
+    .credit-card-box .front{
+        width: 60%;
+    }
+    .form{
+        width: 90%;
+    }
+    .input-row{
+        grid-template-columns: 100%;
+    }
+}
+.checkoutNone{
+    display: none;
+}
+.purchasePassed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Inconsolata;
+    font-size: 1.2em;
+    color: white;
+}

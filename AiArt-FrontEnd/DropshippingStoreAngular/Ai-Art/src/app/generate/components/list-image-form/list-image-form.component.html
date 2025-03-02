@@ -1,0 +1,95 @@
+<div class="parentContainer">
+  <mat-tab-group class="tabs">
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <span
+          style="
+            font-size: 1.5rem;
+            font-family: Inconsolata, monospace;
+            color: white;
+            font-weight: 700;
+          "
+        >
+          List for sale</span
+        >
+        <mat-icon class="example-tab-icon">attach_money</mat-icon>
+      </ng-template>
+      <div class="example-large-box mat-elevation-z5">
+        <div class="secondTab">
+          <app-loader />
+          <div class="imageContainer">
+            <img
+              [src]="appStore.stringifyCreationImage()"
+              alt="creation"
+              class="image"
+            />
+          </div>
+
+          <div class="formContainer">
+            <div>
+              <p>
+                You can make up your description about the art you created.
+                Choose category for it and write price!
+              </p>
+              <span>*Have in mind that you will earn 95% of the price.</span>
+            </div>
+
+            <form
+              class="form"
+              [formGroup]="creationForm"
+              (ngSubmit)="handleSubmit()"
+            >
+              <mat-form-field>
+                <mat-label>Description</mat-label>
+                <input matInput formControlName="description" />
+              </mat-form-field>
+              <mat-form-field>
+                <mat-label>Category</mat-label>
+                <mat-select name="categories" formControlName="category">
+                  <mat-option value="0">Portraits</mat-option>
+                  <mat-option value="1">Acrylic</mat-option>
+                  <mat-option value="2">Black & white</mat-option>
+                  <mat-option value="9">Astro photography</mat-option>
+                  <mat-option value="4">Canvas</mat-option>
+                  <mat-option value="5">Landscapes</mat-option>
+                  <mat-option value="6">Charcoal, chalk and pastel</mat-option>
+                  <mat-option value="7">Art & design</mat-option>
+                  <mat-option value="8">Abstract </mat-option>
+                </mat-select>
+              </mat-form-field>
+
+              <mat-form-field floatLabel="always">
+                <mat-label>Price</mat-label>
+                <input
+                  matInput
+                  type="number"
+                  class="example-right-align"
+                  placeholder="0"
+                  formControlName="price"
+                />
+                <span matTextPrefix>$&nbsp;</span>
+                <span matTextSuffix>.00</span>
+              </mat-form-field>
+
+              <div class="btnContainer">
+                <button type="submit" mat-stroked-button>List</button>
+                <button
+                  type="button"
+                  (click)="handleRemove()"
+                  mat-stroked-button
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+            <!-- <div>
+              <button mat-button style="margin: 10px" (click)="handleGoBack()">
+                <mat-icon>arrow_back</mat-icon>Go back
+              </button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>

@@ -1,0 +1,24 @@
+@if(this.appStore.recentOpen().length){
+<div class="recent">
+  <h6>Recently viewed</h6>
+</div>
+<mat-divider></mat-divider>
+<section>
+  <div id="marquee">
+    <div class="container">
+      <div class="pic-container">
+        @for (item of recent; track $index ) {
+
+        <a routerLink="/categories/details/{{ item.id }}" class="link">
+          <div
+            class="pic"
+            style.background-image="url({{ item.imageUrl }})"
+          ></div>
+        </a>
+
+        }
+      </div>
+    </div>
+  </div>
+</section>
+}

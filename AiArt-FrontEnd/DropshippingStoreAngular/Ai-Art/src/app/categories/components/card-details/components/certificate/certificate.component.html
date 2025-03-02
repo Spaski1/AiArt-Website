@@ -1,0 +1,31 @@
+<div class="content">
+  <p class="closeUnique" (click)="handleOpenCertificate()">X</p>
+  <h6>Certificate of Authenticity</h6>
+  <br />
+  <p>
+    A certificate of authenticity (COA) is a document from an authoritative
+    source that verifies the artwork’s authenticity. While many COAs are signed
+    by the artist, others will be signed by the representing gallery or the
+    printmaker who collaborated with the artist on the work. For secondary
+    market works, authorized estates or foundations are often the issuing party.
+  </p>
+
+  <p>
+    COAs typically include the name of the artist, the details (date,
+    description, category of art) of the work in question, and whenever possible
+    an image of the work.
+  </p>
+  <br />
+  <p>
+    Feel free to <a routerLink="/contact">write</a> us for more information.
+  </p>
+  <br />
+  <button
+    (click)="handleOpenCertificate()"
+    mat-flat-button
+    color="primary"
+    style="width: 100%"
+  >
+    OK
+  </button>
+</div>

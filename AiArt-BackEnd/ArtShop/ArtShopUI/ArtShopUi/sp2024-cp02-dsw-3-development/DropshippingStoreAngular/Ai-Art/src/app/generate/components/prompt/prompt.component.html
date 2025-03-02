@@ -1,0 +1,23 @@
+<section class="promptContainer">
+  <p>
+    Ignite your creative spark with Imagine AI Image Generator. Describe your
+    vision with words, and watch the powerful tool translate them into
+    captivating artwork. Catalyze a flurry of ideas and conquer creative
+    roadblocks.
+  </p>
+  <form [formGroup]="promptForm" (ngSubmit)="generateImage()" class="prompt">
+    <mat-form-field class="example-full-width input">
+      <mat-label>Write your inspirations...</mat-label>
+      <input
+        class="text"
+        matInput
+        required
+        formControlName="promptValue"
+        placeholder="Astronaut cooking in space"
+      />
+    </mat-form-field>
+    <div class="btn">
+      <button mat-stroked-button type="submit">Create</button>
+    </div>
+  </form>
+</section>

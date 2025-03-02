@@ -1,0 +1,49 @@
+.example-container {
+  height: auto;
+}
+
+.example-sidenav {
+  width: 250px;
+  height: 100%;
+}
+.mat-toolbar-single-row {
+  justify-content: center;
+  gap: 35px;
+  background-color: black;
+  height: 80px;
+}
+mat-toolbar .mat-mdc-button-base.mat-mdc-button-base {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: large;
+  font-style: normal;
+}
+
+mat-sidenav-content {
+  height: 100%;
+  background-color: black;
+}
+.mat-drawer-backdrop.mat-drawer-shown {
+  visibility: visible;
+  background-color: black !important;
+}
+
+.example-sidenav[_ngcontent-ng-c2474192904] {
+  width: 250px;
+  height: 100%;
+  background-color: black;
+}
+@media (min-width: 769px) {
+  .example-sidenav {
+    display: none;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+  .nav-links {
+    display: none;
+  }
+}

@@ -1,0 +1,148 @@
+<section class="bigContainer">
+  <button
+    mat-stroked-button
+    aria-label="Example icon button with a vertical three dot icon"
+    class="back"
+    (click)="goBack()"
+  >
+    <mat-icon>arrow_back</mat-icon> Back to Arts
+  </button>
+  <div class="detailsContainer">
+    <div class="article-container">
+      <div
+        class="imageContainer"
+        style.background-image="url({{ product.imageUrl }})"
+      ></div>
+    </div>
+
+    <div class="info">
+      <div>
+        <h6>{{ product.description }}.</h6>
+        <h6>US {{ product.price | currency }}</h6>
+        <p>Category: {{ category }}</p>
+        <!-- <p>Created at: {{ product.createdAt | date }}</p> -->
+      </div>
+
+      <div class="chips">
+        @if(product.stock === false){
+        <div class="chip"><mat-chip>Sold</mat-chip></div>
+        }
+
+        <div>
+          <mat-chip>
+            <div class="chip" (click)="handleUniqueWork()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="20px"
+                fill="#FFFFFF"
+              >
+                <path
+                  d="M160-80q-33 0-56.5-23.5T80-160v-480q0-33 23.5-56.5T160-720h160l160-160 160 160h160q33 0 56.5 23.5T880-640v480q0 33-23.5 56.5T800-80H160Zm0-80h640v-480H160v480Zm80-80h480L570-440 450-280l-90-120-120 160Zm460-200q25 0 42.5-17.5T760-500q0-25-17.5-42.5T700-560q-25 0-42.5 17.5T640-500q0 25 17.5 42.5T700-440ZM404-720h152l-76-76-76 76ZM160-160v-480 480Z"
+                />
+              </svg>
+              <span>Unique work</span>
+            </div>
+          </mat-chip>
+        </div>
+        <div>
+          <mat-chip>
+            <div class="chip">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#FFFFFF"
+              >
+                <path
+                  d="M420-360h120l-23-129q20-10 31.5-29t11.5-42q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 23 11.5 42t31.5 29l-23 129Zm60 280q-139-35-229.5-159.5T160-516v-244l320-120 320 120v244q0 152-90.5 276.5T480-80Zm0-84q104-33 172-132t68-220v-189l-240-90-240 90v189q0 121 68 220t172 132Zm0-316Z"
+                />
+              </svg>
+              <span style="cursor: default">Secure checkout</span>
+            </div>
+          </mat-chip>
+        </div>
+        <div>
+          <mat-chip>
+            <div class="chip" (click)="openCertificate.set(true)">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#FFFFFF"
+              >
+                <path
+                  d="M480-440q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35ZM240-40v-309q-38-42-59-96t-21-115q0-134 93-227t227-93q134 0 227 93t93 227q0 61-21 115t-59 96v309l-240-80-240 80Zm240-280q100 0 170-70t70-170q0-100-70-170t-170-70q-100 0-170 70t-70 170q0 100 70 170t170 70ZM320-159l160-41 160 41v-124q-35 20-75.5 31.5T480-240q-44 0-84.5-11.5T320-283v124Zm160-62Z"
+                />
+              </svg>
+              <span>Includes a Certificate of Authenticity</span>
+            </div>
+          </mat-chip>
+        </div>
+
+        <div class="chip" (click)="handleRoom()" style="cursor: pointer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#FFFFFF"
+          >
+            <path
+              d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"
+            />
+          </svg>
+          <p>view in room</p>
+        </div>
+
+        <div class="buttons">
+          @if(product.stock === true){
+          <a
+            mat-flat-button
+            routerLink="/cart"
+            (click)="handleAddToCart(product)"
+            >Purchase</a
+          >
+          }
+
+          <button
+            mat-flat-button
+            color="primary"
+            (click)="handleAddToFavorites(product)"
+          >
+            <mat-icon>favorite</mat-icon> Love this
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-recent-open />
+</section>
+
+<app-footer></app-footer>
+@if(openRoom() === true){
+<section class="activeRoom">
+  <div class="room">
+    <div class="test1">
+      <div
+        class="test"
+        style.background-image="url({{ product.imageUrl }})"
+      ></div>
+    </div>
+  </div>
+
+  <span (click)="handleRoom()" class="closeRoom">x</span>
+</section>
+} @if(this.openUniqueWork()===true){
+<div class="uniqueWork">
+  <app-unique-work [uniqueWork]="openUniqueWork" />
+</div>
+} @if(this.openCertificate()===true){
+
+<div class="certificate">
+  <app-certificate [openCertificate]="openCertificate" />
+</div>
+}

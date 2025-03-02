@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtShop.Api", "ArtShop.Api\ArtShop.Api.csproj", "{DB141D7F-E9C7-4274-9539-77A32B155FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtShop.DataAcces", "ArtShop.DataAcces\ArtShop.DataAcces.csproj", "{03988CF2-7BD4-4A6C-9279-FA9E059C8126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtShop.DTO", "ArtShop.DTO\ArtShop.DTO.csproj", "{073877CD-DB74-4319-9AC4-E791C650456D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtShop.Entities", "ArtShop.Entities\ArtShop.Entities.csproj", "{7D4C0FB2-44B8-4947-87D4-991A42381FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtShop.Mappers", "ArtShop.Mappers\ArtShop.Mappers.csproj", "{D585144E-B4C4-419F-8707-E0A4DFFA1CEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtShop.Services", "ArtShop.Services\ArtShop.Services.csproj", "{2D0A60B3-E68F-4B5A-8ED6-2F3CBB2FBA23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB141D7F-E9C7-4274-9539-77A32B155FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB141D7F-E9C7-4274-9539-77A32B155FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB141D7F-E9C7-4274-9539-77A32B155FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB141D7F-E9C7-4274-9539-77A32B155FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03988CF2-7BD4-4A6C-9279-FA9E059C8126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03988CF2-7BD4-4A6C-9279-FA9E059C8126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03988CF2-7BD4-4A6C-9279-FA9E059C8126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03988CF2-7BD4-4A6C-9279-FA9E059C8126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073877CD-DB74-4319-9AC4-E791C650456D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073877CD-DB74-4319-9AC4-E791C650456D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073877CD-DB74-4319-9AC4-E791C650456D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073877CD-DB74-4319-9AC4-E791C650456D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4C0FB2-44B8-4947-87D4-991A42381FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4C0FB2-44B8-4947-87D4-991A42381FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4C0FB2-44B8-4947-87D4-991A42381FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4C0FB2-44B8-4947-87D4-991A42381FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D585144E-B4C4-419F-8707-E0A4DFFA1CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D585144E-B4C4-419F-8707-E0A4DFFA1CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D585144E-B4C4-419F-8707-E0A4DFFA1CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D585144E-B4C4-419F-8707-E0A4DFFA1CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0A60B3-E68F-4B5A-8ED6-2F3CBB2FBA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0A60B3-E68F-4B5A-8ED6-2F3CBB2FBA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0A60B3-E68F-4B5A-8ED6-2F3CBB2FBA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0A60B3-E68F-4B5A-8ED6-2F3CBB2FBA23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AA0B78B-5415-4991-84B4-89A9DCB6C503}
+	EndGlobalSection
+EndGlobal

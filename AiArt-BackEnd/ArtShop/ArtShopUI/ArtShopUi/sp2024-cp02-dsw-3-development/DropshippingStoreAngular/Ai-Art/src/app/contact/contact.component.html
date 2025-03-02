@@ -1,0 +1,99 @@
+<div class="gradient-div pt-3">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div
+        class="col-md-6 col-12 d-flex flex-column align-items-start justify-content-center pt-3 text-center text-md-left"
+      >
+        <h2 class="gradient-text">Let's Get in Touch</h2>
+        <p>
+          For any inquiries or questions regarding AI art, feel free to reach
+          out to us using the contact form below. We value your feedback and
+          look forward to hearing from you!
+        </p>
+        <div class="contact-info mb-3">
+          <div class="contact-item d-flex align-items-center mb-2">
+            <mat-icon>location_on</mat-icon>
+            <span>Macedonia, Skopje - 1000</span>
+          </div>
+          <div class="contact-item d-flex align-items-center mb-2">
+            <mat-icon>email</mat-icon>
+            <span>{{ "ai@art.ai" }}</span>
+          </div>
+          <div class="contact-item d-flex align-items-center">
+            <mat-icon>phone</mat-icon>
+            <span>123-456-789</span>
+          </div>
+        </div>
+        <p class="fs-5">Connect with us:</p>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fab fa-facebook-f color"></i
+          ></a>
+          <a href="https://twitter.com" target="_blank">
+            <img width="20px" src="x-twitter.svg" alt="" />
+          </a>
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fab fa-instagram color"></i
+          ></a>
+          <a href="https://linkedin.com" target="_blank"
+            ><i class="fab fa-linkedin-in color"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-md-5 col-12 mt-4 mt-md-0 pt-lg-5">
+        <h2 class="m-15 text-center text-md-left">Contact Us</h2>
+        <form
+          [formGroup]="contactForm"
+          (ngSubmit)="onSubmit()"
+          class="d-flex flex-column"
+        >
+          <mat-form-field class="mb-3">
+            <mat-label>Your Name</mat-label>
+            <input matInput formControlName="name" placeholder="Jane Doe" />
+            @if(contactForm.get('name')?.hasError('required')){
+            <mat-error>Name is <strong>required</strong>.</mat-error>
+            }@if(contactForm.get('name')?.hasError('pattern')){
+            <mat-error color="primary">Enter a valid name.</mat-error>
+            }
+          </mat-form-field>
+          <mat-form-field class="mb-3">
+            <mat-label>Email</mat-label>
+            <input
+              matInput
+              formControlName="email"
+              placeholder="janedoe@mail.com"
+            />
+            @if (contactForm.get('email')?.hasError('pattern') &&
+            !contactForm.get('email')?.hasError('required')) {
+            <mat-error>Please enter a valid email address</mat-error>
+            } @if (contactForm.get('email')?.hasError('required')) {
+            <mat-error>Email is <strong>required</strong>.</mat-error>
+            }
+          </mat-form-field>
+          <mat-form-field class="mb-3">
+            <mat-label>Phone</mat-label>
+            <input
+              matInput
+              formControlName="phone"
+              placeholder="0038975123123"
+            />
+            @if(contactForm.get('phone')?.hasError('required')){
+            <mat-error>Phone is <strong>required</strong>.</mat-error>
+            }@if(contactForm.get('phone')?.hasError('pattern')){
+            <mat-error>Please enter a valid phone number.</mat-error>
+            }
+          </mat-form-field>
+          <mat-form-field class="mb-2">
+            <mat-label>Message</mat-label>
+            <textarea matInput formControlName="message"></textarea>
+            @if(contactForm.get('message')?.hasError('required')){
+            <mat-error>Message is <strong>required</strong>.</mat-error>
+            }
+          </mat-form-field>
+          <button class="custom-color" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

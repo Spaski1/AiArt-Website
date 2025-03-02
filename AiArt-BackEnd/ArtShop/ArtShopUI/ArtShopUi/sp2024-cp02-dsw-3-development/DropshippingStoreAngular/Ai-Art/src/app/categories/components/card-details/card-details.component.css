@@ -1,0 +1,286 @@
+ .bigContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  margin: 0px;
+  justify-content: center;
+  font-family: "Inconsolata", monospace;
+  background: linear-gradient(to left, #000 10%, #291d37 100%);
+}
+.back{
+  position: fixed;
+  left: 15px;
+  top: 90px;
+}
+.detailsContainer {
+  margin: 50px;
+  width: 70%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+  padding: 30px;
+  /* box-shadow: 1px 2px 4px #24093e, 0 0 35px #500f91, 0 0 15px #6b12c5; */
+  font-family: "Inconsolata", monospace;
+}
+
+.article-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+p,
+h6,
+h4 {
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
+  font-family: "Inconsolata", monospace;
+}
+.imageContainer {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+
+.imageContainer:hover {
+  transform: scale(1.2);
+}
+
+.info {
+  color: white;
+  background-image: url("../../../../../public/logo-transparent.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  font-family: "Inconsolata", monospace;
+}
+.chips {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Inconsolata", monospace;
+}
+.chip {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-family: "Inconsolata", monospace;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Inconsolata", monospace;
+}
+/* POP UP */
+
+
+.activeRoom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: hidden; 
+  background-image: url("https://img.freepik.com/free-photo/background-with-simple-white-walls-plant_23-2151019993.jpg?t=st=1726669665~exp=1726673265~hmac=7a9673d2ee26a7b96663267c3a233291b4edd343536dbad41edd740cbe8addb3&w=740");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* .closeRoom {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  color: gray;
+} */
+
+.room{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+  max-width: 60%;
+}
+
+.test1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 50%;
+}
+.test {
+  width: 500px;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.closeRoom {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.closeRoom:hover,
+.closeRoom:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  .activeRoom {
+    background-size: cover;
+  }
+  .modal-content {
+    width: 100%;
+  }
+
+  .test1 {
+    width: 50%;
+    height: 60%;
+  }
+
+  .test {
+    width: 300px;
+    height: 450px;
+    background-size: contain;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .test1 {
+    width: 80%;
+    height: 70%;
+  }
+  .test {
+    width: 500px;
+    height: 550px;
+    background-size: contain;
+  }
+}
+@media only screen and (max-width: 400px) {
+    .test1 {
+      width: 100%;
+      height: 100%;
+    }
+    .test {
+      width: 600px;
+      height: 500px;
+      background-size: contain;
+    }
+  }
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+
+.uniqueWork{
+    position: absolute;
+    top: 10%;
+    left:30%;
+    background-image: url('https://img.freepik.com/premium-photo/close-up-paint-brush-fully-coated-yellow-blue-paint_97167-27997.jpg') ;
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+    /* border-radius: 5%; */
+        
+}
+
+.certificate{
+  position: absolute;
+  top: 10%;
+  left:30%;
+  background-image: url('../../../../../public/hands.png') ;
+  background-size: cover;
+  background-position: center;
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inconsolata", monospace;
+}
+
+@media only screen and (max-width: 880px) {
+    .detailsContainer{
+      
+        grid-template-columns: 100%;
+        
+        width: 90%;
+        gap: 10px;
+        margin: 10px 0px 10px 0px;
+        padding: 5px;
+        
+    }
+
+    .imageContainer{
+      max-width: 100%;
+      height: 300px;
+    }
+
+  .certificate, .uniqueWork{
+    width: 60%;
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .certificate, .uniqueWork{
+    width: 80%;
+    left: 10%;
+  }
+
+  .chip p{
+    text-align: justify;
+  }
+  /* .info{
+    width:70%;
+  } */
+}

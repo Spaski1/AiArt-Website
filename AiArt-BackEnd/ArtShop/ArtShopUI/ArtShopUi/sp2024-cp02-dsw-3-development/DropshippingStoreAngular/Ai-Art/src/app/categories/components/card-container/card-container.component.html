@@ -1,0 +1,15 @@
+<div class="imageContainer">
+  <mat-grid-list
+    [cols]="breakpoint"
+    rowHeight="1:1.6"
+    gutterSize="0px"
+    class="grid-container"
+    (window:resize)="onResize($event)"
+  >
+    @for (item of products(); track item.id) {
+    <mat-grid-tile class="card-cont">
+      <app-card2 [image]="item" />
+    </mat-grid-tile>
+    }
+  </mat-grid-list>
+</div>

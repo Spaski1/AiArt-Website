@@ -1,0 +1,63 @@
+<!-- login.component.html -->
+<div class="container">
+  <div class="register-container">
+    <i class="fas fa-user-circle icon"></i>
+    <h2>Login</h2>
+    <a routerLink="/register"> You don't have an account? Click here!</a>
+
+    @if(errorMessage()){
+    <br />
+    <h6 style="color: #71499d; font-family: 'Montserrat', sans-serif">
+      {{ errorMessage() }}
+    </h6>
+
+    }
+    <form [formGroup]="loginForm" (ngSubmit)="submit()">
+      <!-- Input for Username -->
+      <input
+        type="text"
+        placeholder="Enter your Username"
+        formControlName="userName"
+      />
+      <div
+        *ngIf="
+          loginForm.get('userName')?.invalid &&
+          loginForm.get('userName')?.touched
+        "
+        class="error-message"
+      >
+        Enter a valid username
+      </div>
+
+      <!-- Input for Password -->
+      <div class="password-container">
+        <input
+          [type]="isPasswordVisible ? 'text' : 'password'"
+          placeholder="Enter your Password"
+          formControlName="password"
+        />
+        <i
+          class="fas"
+          [ngClass]="isPasswordVisible ? 'fa-eye-slash' : 'fa-eye'"
+          (click)="togglePasswordVisibility()"
+          aria-hidden="true"
+        ></i>
+      </div>
+      <div
+        *ngIf="
+          loginForm.get('password')?.invalid &&
+          loginForm.get('password')?.touched
+        "
+        class="error-message"
+      >
+        Enter a valid password
+      </div>
+
+      <!-- @if(authService.isAuth()){
+      <button class="button" (click)="submitLogout()">Logout</button>
+      }@else if(!authService.isAuth()) { -->
+      <button class="button">Login</button>
+    </form>
+  </div>
+</div>
+<!-- <app-footer></app-footer> -->

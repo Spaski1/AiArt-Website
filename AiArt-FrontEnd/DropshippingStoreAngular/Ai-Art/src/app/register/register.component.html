@@ -1,0 +1,168 @@
+<!-- register.component.html -->
+<div class="container">
+  <div class="register-container">
+    <i class="fas fa-user-circle icon"></i>
+    <h2>Create Account</h2>
+    <a href="login">Already have an account? Login here!</a>
+
+    @if(errorMessage()){
+    <br />
+    <h6 style="color: #71499d; font-family: 'Montserrat', sans-serif">
+      {{ errorMessage() }}
+    </h6>
+
+    }
+    <form [formGroup]="registerForm" (ngSubmit)="submit()">
+      <input
+        type="text"
+        placeholder="First Name"
+        formControlName="firstName"
+        required
+      />
+      @if(this.registerForm.touched){
+      @if(this.registerForm.get('firstName')?.hasError &&
+      registerForm.get('firstName')?.hasError('required')){
+      <mat-error>First name is <strong>required</strong>.</mat-error>
+      }@if(this.registerForm.get('firstName')?.hasError('pattern')){
+      <mat-error color="primary">Enter a valid first name.</mat-error>
+      }@if(this.registerForm.get('firstName')?.hasError('minlength')){
+      <mat-error color="primary"
+        >First name should be at least 2 characters.</mat-error
+      >
+      } }
+
+      <input
+        type="text"
+        placeholder="Last Name"
+        formControlName="lastName"
+        required
+      />
+      @if(this.registerForm.touched){
+      @if(this.registerForm.get('lastName')?.hasError &&
+      registerForm.get('lastName')?.hasError('required')){
+      <mat-error>Last name is <strong>required</strong>.</mat-error>
+      }@if(this.registerForm.get('lastName')?.hasError('pattern')){
+      <mat-error color="primary">Enter a valid last name.</mat-error>
+      }@if(this.registerForm.get('lastName')?.hasError('minlength')){
+      <mat-error color="primary"
+        >Last name should be at least 2 characters.</mat-error
+      >
+      }}
+      <input
+        type="text"
+        placeholder="Username"
+        formControlName="userName"
+        required
+      />
+      @if(this.registerForm.touched){
+      @if(this.registerForm.get('userName')?.hasError &&
+      registerForm.get('userName')?.hasError('required')){
+      <mat-error>User name is <strong>required</strong>.</mat-error>
+      }@if(this.registerForm.get('userName')?.hasError('minlength')){
+      <mat-error color="primary"
+        >User name should be at least 5 characters.</mat-error
+      >
+      } }
+      <input
+        type="email"
+        placeholder="Email Address"
+        formControlName="email"
+        required
+      />
+      @if(this.registerForm.touched){ @if
+      (registerForm.get('email')?.hasError('pattern') &&
+      !registerForm.get('email')?.hasError('required')) {
+      <mat-error>Please enter a valid email address</mat-error>
+      } @if (registerForm.get('email')?.hasError('required')) {
+      <mat-error>Email is <strong>required</strong>.</mat-error>
+      }}
+      <div>
+        <input
+          type="text"
+          placeholder="Card Number"
+          formControlName="cardNo"
+          required
+        />
+        <mat-hint align="end" class="hint"
+          >{{ this.registerForm.get("cardNo")?.value.length }} / 16</mat-hint
+        >
+      </div>
+
+      @if(this.registerForm.touched){
+      @if(registerForm.get('cardNo')?.hasError('required')){
+      <mat-error>Card number is <strong>required</strong></mat-error>
+      }@if (this.registerForm.get('cardNo')?.hasError('pattern')) {
+      <mat-error>Enter valid value.</mat-error>
+      }@if(this.registerForm.get('cardNo')?.hasError('minlength') ||
+      this.registerForm.get('cardNo')?.hasError('maxlength')){
+      <mat-error>Card number should be 16 numbers.</mat-error>
+      }}
+
+      <input
+        type="text"
+        placeholder="Card Expiration Date"
+        formControlName="expireDate"
+        required
+      />
+      @if(this.registerForm.touched){
+      @if(registerForm.get('expireDate')?.hasError('pattern')){
+      <mat-error>Expired date is <strong>invalid</strong></mat-error>
+      } @if(registerForm.get('expireDate')?.hasError('required')){
+      <mat-error>Card expired date is <strong>required</strong>.</mat-error>
+      }}
+      <div class="password-container">
+        <input
+          [type]="isPasswordVisible ? 'text' : 'password'"
+          placeholder="Password"
+          formControlName="password"
+          required
+        />
+
+        <i
+          class="fas"
+          [ngClass]="isPasswordVisible ? 'fa-eye-slash' : 'fa-eye'"
+          (click)="togglePasswordVisibility()"
+          aria-hidden="true"
+        ></i>
+      </div>
+      @if(this.registerForm.touched){
+      @if(registerForm.get('password')?.hasError('required')){
+      <mat-error>Password is <strong>required</strong>.</mat-error>
+      } @if(this.registerForm.get('password')?.hasError('minlength')){
+      <mat-error>Your password should be at least 8 characters.</mat-error>
+      }}
+      <div class="password-container">
+        <input
+          [type]="isConfirmPasswordVisible ? 'text' : 'password'"
+          placeholder="Confirm Password"
+          formControlName="confirmPassword"
+          required
+        />
+        <i
+          class="fas"
+          [ngClass]="isConfirmPasswordVisible ? 'fa-eye-slash' : 'fa-eye'"
+          (click)="toggleConfirmPasswordVisibility()"
+          aria-hidden="true"
+        ></i>
+      </div>
+      @if(this.registerForm.touched){
+      @if(registerForm.get('confirmPassword')?.hasError('required')){
+      <mat-error
+        >Confirm password field is <strong>required</strong>.</mat-error
+      >
+      }}
+
+      <div *ngIf="passwordMissMatch" class="error-message">
+        <mat-error>Passwords do not match.</mat-error>
+      </div>
+      <br />
+      <button
+        class="registerBtn"
+        type="submit"
+        [disabled]="this.registerForm.invalid"
+      >
+        Register
+      </button>
+    </form>
+  </div>
+</div>

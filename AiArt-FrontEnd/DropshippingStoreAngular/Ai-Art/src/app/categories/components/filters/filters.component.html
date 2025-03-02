@@ -1,0 +1,70 @@
+<div class="filters">
+  <mat-accordion class="accordion">
+    <mat-expansion-panel
+      (opened)="handleAccordion()"
+      (closed)="handleAccordion()"
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title> <mat-icon>tune</mat-icon> Filters</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="inputFields">
+        <section class="inputs">
+          <mat-form-field class="select">
+            <mat-label>Category</mat-label>
+            <mat-select
+              [value]="selectedCategory()"
+              (valueChange)="handleChange($event, updateSelectCategory)"
+            >
+              <mat-option [value]="undefined">None</mat-option>
+              <mat-option value="0">Portraits</mat-option>
+              <mat-option value="1">Acrylic</mat-option>
+              <mat-option value="2">Black & white</mat-option>
+              <mat-option value="9">AstroPhotography</mat-option>
+              <mat-option value="4">Canvas</mat-option>
+              <mat-option value="5">Landscapes</mat-option>
+              <mat-option value="6">Charcoal, chalk & pastel</mat-option>
+              <mat-option value="7">Art & design</mat-option>
+              <mat-option value="8">Abstract</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field class="select">
+            <mat-label>Artist</mat-label>
+            <mat-select
+              [value]="selectedArtist()"
+              (valueChange)="handleChange($event, updateSelectedArtist)"
+            >
+              <mat-option [value]="undefined">None</mat-option>
+              @for (artist of artists(); track $index) {
+              <mat-option [value]="artist">{{ artist }}</mat-option>
+              }
+            </mat-select>
+          </mat-form-field>
+        </section>
+
+        <mat-radio-group
+          aria-label="Select an option"
+          class="radio"
+          [value]="inStock()"
+          (change)="handleRadioBtns($event, this.updateInStock)"
+        >
+          <mat-label>Check:</mat-label>
+          <mat-radio-button [value]="undefined">All</mat-radio-button>
+          <mat-radio-button [value]="true">In stock</mat-radio-button>
+          <mat-radio-button [value]="false">Bought</mat-radio-button>
+        </mat-radio-group>
+
+        <mat-radio-group
+          aria-label="Select an option"
+          class="radio"
+          [value]="selectedDirection()"
+          (change)="handleRadioBtns($event, this.updateSelectedDirection)"
+        >
+          <mat-label>Sort direction:</mat-label>
+          <mat-radio-button [value]="true">Ascending</mat-radio-button>
+          <mat-radio-button [value]="false">Descending</mat-radio-button>
+        </mat-radio-group>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

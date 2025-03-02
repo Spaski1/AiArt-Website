@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.example-full-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 70px;
+       
+}

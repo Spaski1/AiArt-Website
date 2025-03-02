@@ -1,0 +1,24 @@
+<mat-toolbar color="primary" class="custom-toolbar">
+    <nav class="desktop-nav">
+        <a routerLink="">Home</a>
+        <a routerLink="/about-us">About Us</a>
+        <a routerLink="/categories">Categories</a>
+        <a routerLink="/generate-your-art">Generate Your Art</a>
+        <a routerLink="contact">Contact</a>
+        <a routerLink="/login" class="me-3">Login/Sign Up</a>
+        <mat-icon class="cart-icon me-2">shopping_cart</mat-icon>
+        <mat-icon [matMenuTriggerFor]="profileMenu" class="profile-icon me-2">person</mat-icon>
+    </nav>
+</mat-toolbar>
+
+<mat-menu #profileMenu="matMenu" xPosition="before" yPosition="below" class="custom-profile-menu">
+    <div class="profile-info">
+        <div class="profile-pic">
+            <img src="https://via.placeholder.com/50" alt="User Avatar">
+        </div>
+        <div class="profile-details">
+            <p class="name">Super Admin</p>
+            <p class="email">{{'admin@gmail.com'}}</p>
+        </div>
+    </div>
+</mat-menu>

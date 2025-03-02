@@ -1,0 +1,45 @@
+<div class="user-info-container">
+  
+
+  <ng-container *ngIf="userInfo() as user; else loadingOrError">
+    <div *ngIf="user; else noUser">
+      <div class="info-item">
+        <strong>First Name:</strong>
+        <span>{{ user.firstName }}</span>
+      </div>
+      <hr />
+      <div class="info-item">
+        <strong>Last Name:</strong>
+        <span>{{ user.lastName }}</span>
+      </div>
+      <hr />
+      <div class="info-item">
+        <strong>Username:</strong>
+        <span>{{ user.userName }}</span>
+      </div>
+      <hr />
+      <div class="info-item">
+        <strong>Email:</strong>
+        <span>{{ user.email }}</span>
+      </div>
+      <hr />
+      <div class="info-item">
+        <strong>Card Number:</strong>
+        <span>{{ user.cardNo }}</span>
+      </div>
+      <hr />
+      <div class="info-item">
+        <strong>Expiration Date:</strong>
+        <span>{{ user.expireDate }}</span>
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-template #noUser>
+    <p>No user information available. Please log in.</p>
+  </ng-template>
+
+  <ng-template #loadingOrError>
+    <p>Loading user information...</p>
+  </ng-template>
+</div>

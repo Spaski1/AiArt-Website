@@ -1,0 +1,40 @@
+<div class="content">
+  <p class="closeUnique" (click)="handleUniqueWork()">X</p>
+  <h6>Rarity classifications</h6>
+
+  <span>Unique</span>
+  <hr />
+  <p>One-of-a-kind piece.</p>
+
+  <span>Limited edition</span>
+  <hr />
+  <p>
+    The edition run has ended; the number of works produced is known and
+    included in the listing.
+  </p>
+
+  <span>Open edition</span>
+  <hr />
+  <p>
+    The edition run is ongoing. New works are still being produced, which may be
+    numbered. This includes made-to-order works.
+  </p>
+
+  <span>Unknown edition</span>
+  <hr />
+  <p>The edition run has ended; it is unclear how many works were produced.</p>
+
+  <span
+    >Our partners are responsible for providing accurate classification
+    information for all works.</span
+  >
+  <br />
+  <button
+    (click)="handleUniqueWork()"
+    mat-flat-button
+    color="primary"
+    style="width: 100%"
+  >
+    OK
+  </button>
+</div>

@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIArt</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playpen+Sans:wght@300;700&display=swap"
+    rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/home.css">
+</head>
+
+<body>
+  <!-- Nav Bar -->
+   <div class="navigation-bar">
+    <nav class="navbar navigation-bar first-nav">
+      <div class="first-nav-container">
+        <div class="searchLogo">
+          <div class="logoNav">
+            <a href="#">
+              <img src="../icons/art-whiteTxt.png" class="logoImg" alt="Logo" />
+            </a>
+            <h4>AIArt</h4>
+          </div>
+
+          <div class="div-search">
+            <input class="searchInput" id="searchInput" type="search" placeholder="&#xF002; Search..."
+              style="font-family: Poppins, FontAwesome" />
+          </div>
+        </div>
+
+        <div class="cart-navItems">
+          <ul class="navList">
+            <li class="nav-item">
+              <a href="../templates/cartPage.html" class="nav-link cart-icon" id="cart"><div class="test-cart">
+                <img src="../icons/icons8-cart-48.png" alt="Shopping cart logo" srcset="" class="cart-icon-img" />
+                <small id="cart-count" class="cart-count">0</small>
+              </div>
+                
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="LoginBtn" aria-current="page" href="../templates/loginPage.html"><img src="../icons/icons8-log-in-32.png"
+                      alt="Login icon" width="25" height="23" srcset=""><span> Log In</span></a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" href="../templates/singUp.html"><img src="../icons/icons8-account-32.png" alt="Sing up icon"
+                      srcset="" width="25" height="23"><span> Sign up</span></a>
+
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" id="LogOutBtn" aria-current="page" href="#"><img src="../icons/LogOut.png"
+                  alt="Logout icon" width="25" height="23" srcset="" id="LogOutBtn"><span> Log Out</span></a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <hr />
+
+  <div class="navigation-bar">
+    <nav class="navbar navigation-bar navbar-expand-lg second-nav">
+      <div class="second-nav-container">
+        <button class="navbar-toggler btn-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav navPages">
+            <a class="nav-link second-nav-links" href="#">Home</a>
+            <a class="nav-link second-nav-links" href="../templates/categoryPage.html">Categories</a>
+            <a class="nav-link second-nav-links" href="../templates/salePage.html">Sale</a>
+            <a class="nav-link second-nav-links" href="../templates/aboutus.html">About us</a>
+            <a class="nav-link second-nav-links" href="../templates/ContactUs.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+  <!-- Top image slider -->
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active" onclick="window.location.href='../templates/salePage.html'"
+          style="background-image: url('../images/portraits/70.jpg'); background-position: center; cursor: pointer;">
+          <div class="carousel-caption d-none d-md-block">
+            <p><a href="../templates/salePage.html">Visit our unique images with discount prices!</a></p>
+          </div>
+        </div>
+        <div class="carousel-item" onclick="window.location.href='../templates/salePage.html'"
+          style="background-image: url('../images/portraits/67.jpg'); background-position: center; cursor: pointer;">
+          <div class="carousel-caption d-none d-md-block">
+            <p><a href="../templates/salePage.html">Visit our unique images with discount prices!</a></p>
+          </div>
+        </div>
+        <div class="carousel-item" onclick="window.location.href='../templates/salePage.html'"
+          style="background-image: url('../images/portraits/65.jpg'); background-position: 70% 30%; cursor: pointer;">
+          <div class="carousel-caption d-none d-md-block">
+            <p><a href="../templates/salePage.html">Visit our unique images with discount prices!</a></p>
+          </div>
+        </div>
+        <div class="carousel-item" onclick="window.location.href='../templates/salePage.html'"
+          style="background-image: url('../images/portraits/69.jpg');background-position: 60% 40%; cursor: pointer;">
+          <div class="carousel-caption d-none d-md-block">
+            <p><a href="../templates/salePage.html">Visit our unique images with discount prices!</a></p>
+          </div>
+        </div>
+        <div class="carousel-item" onclick="window.location.href='../templates/salePage.html'"
+          style="background-image: url('../images/portraits/73.jpg'); background-position: center; cursor: pointer;">
+          <div class="carousel-caption d-none d-md-block">
+            <p><a href="../templates/salePage.html">Visit our unique images with discount prices!</a></p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  
+
+  <!-- Top cards -->
+  <div class="top-cards">
+    <h1 class="headers" style="font-weight: 700; margin:30px 0px;">Experience the future of art today!</h1>
+
+    <div class="sellYourArtContainer" style="margin-bottom: 50px;">
+      <section>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card" id="rotatingCards">
+              <div class="cover item-a d-flex justify-content-center align-items-center">
+                <div class="card-text">
+                  <p>The new creative era has already begun. Decorate your home or workspace with our revolutionary AI
+                    Art. Choose from thousands of unique and original paintings using AI and start creating your own
+                    collections of arts.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card" id="rotatingCards">
+              <div class="cover item-b d-flex justify-content-center align-items-center">
+                <div class="card-text">
+                  <p>Create your account for free today, and get some of our unique masterpieces with discount prices.
+                    We guarantee that you will be the sole owner.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card" id="rotatingCards">
+              <div class="cover item-c d-flex justify-content-center align-items-center">
+                <div class="card-text">
+                  <p>Soon all our registered customers will have the opportunity to join our global community of AI
+                    Artists. You will be able to create your own Ai paintings by text and start to sell your arts to our
+                    global audience of Ai art lovers. Feel free to contact us for more information.</a>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+
+  <div>
+    <h2 class="headers banner-header" style="font-weight: 700; margin-top: 40px;">Sell your artwork with the power of the
+      inovation</h2>
+    <div class="banner">
+          <h1>95% goes to artists, 5% fuels our platform's innovation.</h1>
+        </div>
+  </div>
+
+  <main id="main">
+
+    <!-- showing animation if no result are found from search input -->
+    <div id="noItemsFound" class="noItemsFound">
+      <dotlottie-player src="https://lottie.host/7b1da760-d966-4332-88e5-8fafd7dabb77/hs9i5dQSl0.json"
+        background="transparent" speed="1" class="noItems" direction="1" playMode="normal" loop controls
+        autoplay></dotlottie-player>
+    </div>
+
+    <!-- Cards -->
+    <div class="card-img" id="cardContainer"></div>
+
+    <!-- Page Numbers -->
+    <div class="page-numbers" id="pagination"></div>
+    <!-- POP UP -->
+
+    <div class="popup-container">
+      <div id="popup" class="hidden">
+        <div id="popup-content">
+          <div class="popup-header" id="popup-header"></div>
+          <div class="pop-wrapper">
+            <div class="imageDiv">
+              <img id="popup-image" src="" alt="Popup Image" class="popup-image" />
+            </div>
+
+            <div class="infoPopup">
+              <div class="txtDiv" id="txtDiv">
+                <div id="popup-text" class="popup-text"></div>
+                <div id="btnDiv">
+                  <p class="add" id="add">
+                    <img src="../icons/icons8-add-to-cart-black.png" alt="Add to cart" />
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <span id="popup-close">&times;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Center Image Slider -->
+  <div class="cenetrImageSlider">
+    <div id="mz-gallery-container">
+      <button type="button" id="scrollLeftButton" class="scrollButton" onclick="scrollL()"><img
+          src="../icons/double-arrows.png" alt=""></button>
+      <h2 class="headers" style="margin-top: 30px; font-weight: 700;">Most Popular Creator Picks</h2>
+      <div id="mz-gallery">
+        
+
+      </div>
+      <button type="button" id="scrollRightButton" class="scrollButton" onclick="scrollR()"><img
+          src="../icons/double-arrows2.png" alt=""></button>
+    </div>
+  </div>
+
+  <!-- Bottom Image cards -->
+  <div class="bottomCardsContainer">
+    <header class="main-header clearfix" style="border-top: 3px solid black;">
+      <img class="logo" src="../icons/art.png">
+      <h1 class="name">Category samples</h1>
+    </header>
+
+    <div class="content clearfix">
+      <div class="cube-container">
+        <div class="photo-cube">
+          <img class="front" src="" alt="">
+          <div class="back photo-desc">
+            <h3>Art & Design</h3>
+            <p>Browse images from Art & Design!</p>
+            <a href="../templates/categoryPage.html" class="button">Open</a>
+          </div>
+          <img class="left" src="" alt="">
+          <img class="right" src="" alt="">
+
+        </div>
+      </div>
+
+      <div class="cube-container cubeContainer2">
+        <div class="photo-cube">
+          <div class="back photo-desc">
+            <h3>Portraits</h3>
+            <p>Browse images from Portraits!</p>
+            <a href="../templates/categoryPage.html" class="button">Open</a>
+          </div>
+          <img class="left" src="" alt="">
+          <img class="right" src="" alt="">
+
+        </div>
+      </div>
+
+      <div class="cube-container cubeContainer3">
+        <div class="photo-cube">
+          <img class="front" src="" alt="">
+          <div class="back photo-desc">
+            <h3>Landscapes</h3>
+            <p>Browse images from Landscapes!</p>
+            <a href="../templates/categoryPage.html" class="button">Open</a>
+          </div>
+          <img class="left" src="" alt="">
+          <img class="right" src="" alt="">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Scripts -->
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+  <script src="../scripts/searchProducts.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  <script src="../scripts/home.js"></script>
+  <script src="../scripts/auth.js"></script>
+  
+  <!--=============== End Scripts=================== -->
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white">
+
+    <div class="container p-4">
+
+      <div class="row my-4">
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <div class=" shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+            style="width: 150px; height: 120px;">
+            <img src="../icons/art2.png" height="60" alt="art logo" style="width:150px; height: fit-content;" loading="lazy" />
+          </div>
+
+          <p class="text-center">A place where you can create stunning AI-generated images effortlessly</p>
+
+          <ul class="list-unstyled d-flex flex-row justify-content-center">
+            <li>
+              <a href="https://www.facebook.com/people/Qinshift/100091645631435/" target="_blank"><img src="../icons/facebook.png"
+                  alt="Facebook Logo" style=" height: 34px; width: 34px; margin-right: 10px;"></a>
+            </li>
+            <li>
+              <a href="https://x.com/qinshift" target="_blank"><img src="../icons/twitter.png" alt="X logo"
+                  style=" height: 34px; width: 34px; margin-right: 10px;"></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/qinshift/" target="_blank"><img src="../icons/instagram.png" alt="Instagram Logo"
+                  style=" height: 34px; width: 34px;margin-right: 10px;"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/qinshift/" target="_blank"><img src="../icons/linkedin.png" alt="Instagram Logo"
+                style=" height: 34px; width: 34px;"></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Categories</h5>
+
+          <ul class="list-unstyled">
+            
+            <li class="mb-2">
+              <a href="categoryPage.html" class="text-white" style="text-decoration: none;">Acrylic</a>
+            </li>
+            <li class="mb-2">
+              <a href="categoryPage.html" class="text-white" style="text-decoration: none;">Art & Design</a>
+            </li>
+            <li class="mb-2">
+              <a href="categoryPage.html" class="text-white" style="text-decoration: none;">Black & White</a>
+            </li>
+            <li class="mb-2">
+              <a href="categoryPage.html" class="text-white" style="text-decoration: none;">Pastel, Chalk &
+                Charcoals</a>
+            </li>
+            <li class="mb-2">
+              <a href="categoryPage.html" class="text-white" style="text-decoration: none;">Abstract</a>
+            </li>
+            <li class="mb-2">
+              <a href="categoryPage.html" class="text-white" style="text-decoration: none;">Nature</a>
+            </li>
+            <li class="mb-2">
+              <a href="categoryPage.html" class="text-white" style="text-decoration: none;">Portraits</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Information</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="aboutus.html"  class="text-white" style="text-decoration: none;">About us</a>
+            </li>
+            <li class="mb-2">
+              <a href="aboutus.html" class="text-white" style="text-decoration: none;">Our mission</a>
+            </li>
+            <li class="mb-2">
+              <a href="aboutus.html" class="text-white" style="text-decoration: none;">What we offer
+              </a>
+            </li>
+           
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Contact</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="ContactUs.html" class="text-white" style="text-decoration: none;">Write us here</a>
+            </li>
+            <li>
+              <p>Qinshift, bb Street, Skopje</p>
+            </li>
+            <li>
+              <p>+389 234 567</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2024 Copyright:
+      <a class="text-white" href="">ArtShop</a>
+    </div>
+  </footer>
+</body>
+
+</html>

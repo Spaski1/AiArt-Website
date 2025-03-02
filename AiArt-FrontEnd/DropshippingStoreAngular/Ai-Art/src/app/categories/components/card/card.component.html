@@ -1,0 +1,56 @@
+<mat-card class="card" appearance="outlined">
+  <mat-card-header>
+    <a
+      routerLink="/categories/details/{{ image().id }}"
+      class="test"
+      style.background-image="url({{ image().imageUrl }})"
+      ><img src="logo2.png" alt="logo" class="logo"
+    /></a>
+  </mat-card-header>
+
+  <div class="cardDetails">
+    <mat-card-content class="paragraphs">
+      @if(handleCategories()){
+      <p>{{ handleCategories() }}</p>
+      }@else {
+      <p>{{ image().category }}</p>
+      }
+
+      <p>Price: {{ image().price | currency }}</p>
+      <p></p
+    ></mat-card-content>
+
+    <mat-card-actions class="cardBtns">
+      <mat-chip-set aria-label="Fish selection">
+        @if(image().stock){
+        <mat-chip class="chip"
+          ><span>Stock <img src="stock-true.png" /> </span
+        ></mat-chip>
+        }@else {
+        <mat-chip class="chip"
+          ><span
+            >Stock <img src="stock-false.png" style="padding: 0%; margin: 0%"
+          /></span>
+        </mat-chip>
+        }
+      </mat-chip-set>
+
+      <button
+        mat-mini-fab
+        aria-label="icon button with a favorite icon"
+        (click)="handleAddToFavorites(image())"
+      >
+        <mat-icon>favorite</mat-icon>
+      </button>
+      @if(image().stock){
+      <button
+        mat-mini-fab
+        aria-label="icon button with a favorite icon"
+        (click)="handleAddToCart(image())"
+      >
+        <mat-icon>add_shopping_cart</mat-icon>
+      </button>
+      }
+    </mat-card-actions>
+  </div>
+</mat-card>

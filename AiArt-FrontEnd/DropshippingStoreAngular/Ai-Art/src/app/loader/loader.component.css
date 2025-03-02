@@ -1,0 +1,8 @@
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    color: #B199CD;
+    margin: 10px;
+}

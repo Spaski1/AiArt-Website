@@ -1,0 +1,54 @@
+@if(appStore.favorites().length){
+
+<div class="heading">
+  <h5>Your favorites are here!</h5>
+  <mat-divider></mat-divider>
+</div>
+
+<div class="container">
+  @for (item of appStore.favorites(); track $index) {
+  <div class="medium">
+    <div>
+      <a routerLink="/categories/details/{{ item.id }}" class="link">
+        <img [src]="item.imageUrl" />
+      </a>
+    </div>
+    @if(item.stock){
+    <button
+      mat-icon-button
+      aria-label="Example icon button with a vertical three dot icon"
+      class="btn"
+      (click)="handleAddToCart(item)"
+    >
+      <mat-icon>add_shopping_cart</mat-icon>
+    </button>
+    }
+
+    <span>
+      <button
+        mat-icon-button
+        aria-label="Example icon button with a vertical three dot icon"
+        (click)="handleRemoveFromFavorites(item)"
+        class="close"
+      >
+        <mat-icon>close</mat-icon>
+      </button></span
+    >
+  </div>
+  }
+</div>
+<mat-divider style="margin-top: 25px"></mat-divider>
+<app-footer />
+
+}@else {
+<div
+  class="empty"
+  style="
+    background: linear-gradient(to left, #000 10%, #291d37 100%) content-box;
+  "
+>
+  <h6 margin>Your favorite list is empty.</h6>
+  <a mat-stroked-button routerLink="/categories">Go to products</a>
+</div>
+<app-footer />
+}

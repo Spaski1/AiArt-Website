@@ -1,0 +1,88 @@
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.deps.json
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.pdb
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.DTO.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.DTO.pdb
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.csproj.AssemblyReference.cache
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.AssemblyInfoInputs.cache
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.AssemblyInfo.cs
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop..F119DA74.Up2Date
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\refint\ArtShop.Mappers.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.pdb
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ref\ArtShop.Mappers.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.deps.json
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.pdb
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.DTO.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.DTO.pdb
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.csproj.AssemblyReference.cache
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.AssemblyInfoInputs.cache
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.AssemblyInfo.cs
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop..F119DA74.Up2Date
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\refint\ArtShop.Mappers.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.pdb
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ref\ArtShop.Mappers.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.deps.json
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.pdb
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.DTO.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.DTO.pdb
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.csproj.AssemblyReference.cache
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.AssemblyInfoInputs.cache
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.AssemblyInfo.cs
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.sourcelink.json
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop..F119DA74.Up2Date
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\refint\ArtShop.Mappers.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.pdb
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ref\ArtShop.Mappers.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.deps.json
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.pdb
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.DTO.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.DTO.pdb
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.csproj.AssemblyReference.cache
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.AssemblyInfoInputs.cache
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.AssemblyInfo.cs
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.sourcelink.json
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop..F119DA74.Up2Date
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\refint\ArtShop.Mappers.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.pdb
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ref\ArtShop.Mappers.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.deps.json
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Mappers.pdb
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.DTO.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.DTO.pdb
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.csproj.AssemblyReference.cache
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.AssemblyInfoInputs.cache
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.AssemblyInfo.cs
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.sourcelink.json
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop..F119DA74.Up2Date
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\refint\ArtShop.Mappers.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ArtShop.Mappers.pdb
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.Mappers\obj\Debug\net8.0\ref\ArtShop.Mappers.dll

@@ -1,0 +1,26 @@
+.stepperContainer{
+    background: linear-gradient(to left, #000 10%, #291d37 100%) content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+}
+
+.stepper{
+    margin: 40px;
+    width:  60%;
+    box-shadow: 0 0 10px rgba(220, 210, 210, 0.507);
+    border-radius: 15px;
+    background-color: transparent;
+}
+@media screen and ( max-width:960px) {
+    .stepper{
+        width: 80%;
+    }
+}
+@media screen and ( max-width:360px) {
+    .stepper{
+        margin: 10px;
+    }
+}

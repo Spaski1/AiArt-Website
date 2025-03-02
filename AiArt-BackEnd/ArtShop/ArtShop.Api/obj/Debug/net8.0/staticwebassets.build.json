@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qLXSEddZEn1udax3GLG+CIdJPBpox/AIUYlZzG3IFdQ=",
+  "Source": "ArtShop.Api",
+  "BasePath": "_content/ArtShop.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

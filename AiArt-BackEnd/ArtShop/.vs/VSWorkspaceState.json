@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ArtShop.Api",
+    "\\ArtShop.Api\\Controllers",
+    "\\ArtShop.DataAcces",
+    "\\ArtShop.DataAcces\\FluentConfig",
+    "\\ArtShop.Services",
+    "\\ArtShop.Services\\Services",
+    "\\ArtShopUI"
+  ],
+  "SelectedNode": "\\ArtShop.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,38 @@
+<div class="categoriesContainer">
+  <app-gallery />
+
+  <app-filters
+    [selectedCategory]="productStore.selectedCategory()"
+    [selectedArtist]="productStore.selectedArtist()"
+    [selectedDirection]="productStore.sortByPriceAsc()"
+    [artists]="productStore.artistNames()"
+    [inStock]="productStore.inStock()"
+    (updateSelectCategory)="productStore.setSelectedCategory($event)"
+    (updateSelectedArtist)="productStore.setSelectedArtist($event)"
+    (updateSelectedDirection)="productStore.setSortByPriceAsc($event)"
+    (updateInStock)="productStore.setInStock($event)"
+    id="products"
+  />
+
+  <app-search
+    [searchTerm]="productStore.searchTerm()"
+    (updateSearchTerm)="productStore.setSearch($event.target.value)"
+  />
+  <app-loader />
+  @if(productStore.products().length){
+  <app-card-container [products]="productStore.products()" />
+
+  <mat-paginator
+    [length]="productStore.totalCount()"
+    [pageSize]="productStore.pageSize()"
+    [pageIndex]="productStore.pageNumber() - 1"
+    [showFirstLastButtons]="true"
+    [hidePageSize]="true"
+    aria-label="Select page"
+    (page)="handlePage($event)"
+  />
+  }@else {
+  <div class="noItems"><p>There are no products.</p></div>
+  }
+</div>
+<app-footer />

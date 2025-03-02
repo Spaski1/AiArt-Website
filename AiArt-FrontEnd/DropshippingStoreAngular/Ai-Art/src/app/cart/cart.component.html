@@ -1,0 +1,34 @@
+<div class="stepperContainer">
+  <mat-stepper orientation="horizontal" #stepper class="stepper">
+    <mat-step label="Check your products" class="column">
+      <app-cart-table />
+
+      <div>
+        <button
+          mat-flat-button
+          matStepperNext
+          [disabled]="!appStore.cart().length"
+        >
+          Next
+        </button>
+      </div>
+    </mat-step>
+    @if(appStore.cart().length){
+    <mat-step class="column">
+      <ng-template matStepLabel>Checkout</ng-template>
+      <div class="component">
+        @if(!appStore.user() || !checkToken() ){
+        <app-cart-form />
+        }@else if (appStore.user() && checkToken()) {
+        <app-cart-form-auth />
+        }
+      </div>
+
+      <div>
+        <button mat-flat-button matStepperPrevious type="button">Back</button>
+      </div>
+    </mat-step>
+    }
+  </mat-stepper>
+</div>
+<app-footer />

@@ -1,0 +1,87 @@
+<div class="form-container">
+  <div *ngIf="successMessage" class="success-message">
+    <p>{{ successMessage }}</p>
+  </div>
+
+  <form [formGroup]="userInfoForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div>
+        <label for="firstName">First Name:</label>
+        <input id="firstName" formControlName="firstName" />
+      </div>
+      <div>
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" formControlName="lastName" />
+      </div>
+      <div>
+        <label for="userName">User Name:</label>
+        <input id="userName" formControlName="userName" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label for="password">Password:</label>
+        <div class="password-field">
+          <input
+            id="password"
+            [type]="showPassword ? 'text' : 'password'"
+            formControlName="password"
+          />
+          <i
+            class="fas"
+            [ngClass]="showPassword ? 'fa-eye-slash' : 'fa-eye'"
+            (click)="togglePasswordVisibility('password')"
+          ></i>
+        </div>
+        <div *ngIf="userInfoForm.get('password')?.hasError('minlength')">
+          <p class="error">Password must be at least 8 characters long!</p>
+        </div>
+      </div>
+
+      <div>
+        <label for="confirmPassword">Confirm Password:</label>
+        <div class="password-field">
+          <input
+            id="confirmPassword"
+            [type]="showConfirmPassword ? 'text' : 'password'"
+            formControlName="confirmPassword"
+          />
+          <i
+            class="fas"
+            [ngClass]="showConfirmPassword ? 'fa-eye-slash' : 'fa-eye'"
+            (click)="togglePasswordVisibility('confirmPassword')"
+          ></i>
+        </div>
+        <div *ngIf="userInfoForm.get('confirmPassword')?.hasError('minlength')">
+          <p class="error">Password must be at least 8 characters long!</p>
+        </div>
+        <div *ngIf="userInfoForm.hasError('passwordsMismatch')">
+          <p class="error">Passwords do not match!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" type="email" formControlName="email" />
+      </div>
+      <div>
+        <label for="cardNo">Card Number:</label>
+        <input id="cardNo" formControlName="cardNo" />
+      </div>
+      <div>
+        <label for="expireDate">Expire Date:</label>
+        <input id="expireDate" formControlName="expireDate" />
+      </div>
+    </div>
+
+    <button type="submit" [disabled]="userInfoForm.invalid">Update Info</button>
+  </form>
+</div>
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+/>

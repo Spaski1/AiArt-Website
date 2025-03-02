@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/checkout.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <form id="checkoutForm" action="#">
+          <h1><i class="fas fa-shipping-fast"></i> Details</h1>
+          <div class="name">
+            <div>
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="f-name"
+                name="f-name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div>
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="l-name"
+                name="l-name"
+                placeholder="Enter your last name"
+              />
+            </div>
+          </div>
+
+          <div class="address-info">
+            <div>
+              <label for="city">City</label>
+              <input type="text" id="city" name="city" placeholder="City" />
+            </div>
+            <div>
+              <label for="state">State</label>
+              <input type="text" id="state" name="state" placeholder="State" />
+            </div>
+            <div>
+              <label for="zip">Zip Code</label>
+              <input type="text" id="zip" name="zip" placeholder="Zip" />
+            </div>
+          </div>
+
+          <h1><i class="far fa-credit-card"></i> Payment Information</h1>
+          <div class="cc-num">
+            <label for="cardnum">Credit Card Number</label>
+            <input
+              type="text"
+              id="card-num"
+              name="card-num"
+              placeholder="1234-1234-1234-1234"
+            />
+          </div>
+          <div class="cc-info">
+            <div>
+              <label for="expire">Expiration Date</label>
+              <input
+                type="text"
+                id="expire"
+                name="expire"
+                placeholder="MM/YY"
+              />
+            </div>
+            <div>
+              <label for="security">Security Code (CCV)</label>
+              <input
+                type="text"
+                id="security"
+                name="security"
+                placeholder="123"
+              />
+            </div>
+          </div>
+
+          <div class="btns">
+            <button type="submit" class="purchaseButton">Purchase</button>
+            <button
+              type="button"
+              onclick="window.location.href='./cartPage.html'"
+            >
+              Back to Cart
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="successWindow" class="window">
+      <div class="window-content">
+        <span id="closeWindow" class="close">&times;</span>
+        <p>Payment successful! Thank you for your purchase.</p>
+        <button id="okButton" class="btn">OK</button>
+      </div>
+    </div>
+
+    <script src="../scripts/checkout.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.deps.json
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.runtimeconfig.json
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.pdb
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.csproj.AssemblyReference.cache
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.AssemblyInfoInputs.cache
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.AssemblyInfo.cs
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.csproj.CoreCompileInputs.cache
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop..5641F469.Up2Date
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\refint\ArtShop.DataAcces.dll
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.pdb
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.genruntimeconfig.cache
+C:\Users\spase\OneDrive\Десктоп\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ref\ArtShop.DataAcces.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.csproj.AssemblyReference.cache
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.AssemblyInfoInputs.cache
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.AssemblyInfo.cs
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.csproj.CoreCompileInputs.cache
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\refint\ArtShop.DataAcces.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.pdb
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.deps.json
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.runtimeconfig.json
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.pdb
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop..5641F469.Up2Date
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.genruntimeconfig.cache
+C:\Users\toiis\Downloads\ArtShopBackEnd2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ref\ArtShop.DataAcces.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.deps.json
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.runtimeconfig.json
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.pdb
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.csproj.AssemblyReference.cache
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.AssemblyInfoInputs.cache
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.AssemblyInfo.cs
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.csproj.CoreCompileInputs.cache
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.sourcelink.json
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop..5641F469.Up2Date
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\refint\ArtShop.DataAcces.dll
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.pdb
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.genruntimeconfig.cache
+C:\Users\spase\source\repos\sp2024-cp02-dsw-3-phase2\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ref\ArtShop.DataAcces.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.deps.json
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.runtimeconfig.json
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.pdb
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.csproj.AssemblyReference.cache
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.AssemblyInfoInputs.cache
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.AssemblyInfo.cs
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.csproj.CoreCompileInputs.cache
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.sourcelink.json
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop..5641F469.Up2Date
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\refint\ArtShop.DataAcces.dll
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.pdb
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.genruntimeconfig.cache
+C:\Users\spase\OneDrive\Десктоп\sp2024-cp02-dsw-3-phase2-project rebuild\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ref\ArtShop.DataAcces.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.deps.json
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.runtimeconfig.json
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.DataAcces.pdb
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.Entities.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\bin\Debug\net8.0\ArtShop.Entities.pdb
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.csproj.AssemblyReference.cache
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.AssemblyInfoInputs.cache
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.AssemblyInfo.cs
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.csproj.CoreCompileInputs.cache
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.sourcelink.json
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop..5641F469.Up2Date
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\refint\ArtShop.DataAcces.dll
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.pdb
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ArtShop.DataAcces.genruntimeconfig.cache
+C:\Users\spase\OneDrive\Десктоп\AiArt\AiArt-Website\AiArt-BackEnd\ArtShop\ArtShop.DataAcces\obj\Debug\net8.0\ref\ArtShop.DataAcces.dll

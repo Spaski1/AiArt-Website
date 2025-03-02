@@ -1,0 +1,15 @@
+<div *ngIf="isLoading(); else content" class="loading-message">
+  <p>Loading images...</p>
+</div>
+
+<ng-template #content>
+  <div class="purchased-images" *ngIf="boughtImages().length > 0; else noImages">
+    <div class="image-card" *ngFor="let image of boughtImages()">
+      <img [src]="image.imageUrl" alt="image" />
+    </div>
+  </div>
+
+  <ng-template #noImages>
+    <p>No purchased images found.</p>
+  </ng-template>
+</ng-template>

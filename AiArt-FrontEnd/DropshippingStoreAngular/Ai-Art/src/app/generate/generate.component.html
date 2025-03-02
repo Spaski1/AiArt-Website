@@ -1,0 +1,43 @@
+<div class="generateContainer">
+  <mat-tab-group class="tabs">
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <span
+          style="
+            font-size: 1.5rem;
+            font-family: Inconsolata, monospace;
+            color: white;
+            font-weight: 700;
+          "
+          >Text to image</span
+        >
+        <mat-icon class="example-tab-icon">brush</mat-icon>
+      </ng-template>
+      <div class="example-small-box mat-elevation-z4">
+        <app-loader />
+
+        <div class="first">
+          <div class="video">
+            <video
+              src="https://cdn.web.imagine.art/imagine-frontend/assets/video/landing-page/tools/text-to-img.webm"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <div class="video">
+            <video
+              src="https://cdn.web.imagine.art/imagine-frontend/assets/video/landing-page/tools/realtime-text.webm"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+        </div>
+        <div class="test">
+          <app-prompt />
+        </div>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>

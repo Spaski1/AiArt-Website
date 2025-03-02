@@ -1,0 +1,80 @@
+/* User Info Container */
+.user-info-container {
+    background-color: #000000;
+    color: #fff;
+    padding: 40px;
+    
+    box-shadow: 0 8px 16px #9a8d95;
+    font-family: "Inconsolata", monospace;
+    max-width: 600px;
+    margin: 30px auto;
+  }
+  
+  /* Heading */
+  .user-info-container h2 {
+    color: #b9b7bc;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+  /* User Info Item */
+  .user-info-container .info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  /* Label */
+  .user-info-container .info-item strong {
+    color: #b9b7bc;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  /* User Data */
+  .user-info-container .info-item span {
+    font-size: 18px;
+    color: #fff;
+    padding-left: 10px;
+    line-height: 1.6;
+  }
+  
+  /* Divider */
+  .user-info-container hr {
+    border: none;
+    border-top: 1px solid #9370db; /* Adjust the border thickness as needed */
+    margin: 15px 0; /* Adjust the margin for spacing */
+  }
+  
+  /* Loading or Error Message */
+  .user-info-container #loadingOrError,
+  .user-info-container #noUser {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: #9370db;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .user-info-container {
+      padding: 20px;
+    }
+  
+    .user-info-container h2 {
+      font-size: 28px;
+    }
+  
+    .user-info-container .info-item strong,
+    .user-info-container .info-item span {
+      font-size: 16px;
+    }
+  }
+  

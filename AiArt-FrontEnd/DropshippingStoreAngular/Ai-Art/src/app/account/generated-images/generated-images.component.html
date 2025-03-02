@@ -1,0 +1,18 @@
+<div *ngIf="isLoading(); else content" class="loading-message">
+  <p>Loading images...</p>
+</div>
+
+<ng-template #content>
+  <div class="sold-images" *ngIf="soldImages().length > 0; else noImages">
+    <h6>You have earned {{ this.earns() | currency }}.</h6>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px">
+      <div class="image-card" *ngFor="let image of soldImages()">
+        <img [src]="image.imageUrl" alt="image" />
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noImages>
+    <p>No sold images found.</p>
+  </ng-template>
+</ng-template>

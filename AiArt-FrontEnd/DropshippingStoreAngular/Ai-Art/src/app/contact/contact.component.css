@@ -1,0 +1,154 @@
+.gradient-div {
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 67px);
+    background: linear-gradient(to right, #000000, #20162B);
+    color: white;
+    padding: 20px;
+}
+
+.gradient-text {
+    font-family: 'Inconsolata';
+    font-weight: bold;
+    background: linear-gradient(45deg, #F7F7F8 0%, #825FA7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-div h2,
+.gradient-div p,
+.gradient-div .mat-form-field,
+.gradient-div .mat-form-field mat-label,
+.gradient-div .mat-form-field input,
+.gradient-div .mat-form-field textarea,
+.gradient-div button {
+    color: white;
+}
+
+.gradient-div .mat-form-field {
+    border-color: white;
+}
+
+.gradient-div .mat-form-field input,
+.gradient-div .mat-form-field textarea {
+    background-color: transparent;
+    color: white;
+}
+
+.custom-color {
+    /* background-color: #704A9D; */
+    background: linear-gradient(110deg, #000000 0%, #5c3b8d 70%);
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.custom-color:hover {
+    background-color: #5c3b8d;
+}
+
+.contact-info {
+    margin-top: 15px;
+}
+
+.contact-item mat-icon {
+    color: white;
+    margin-right: 10px;
+}
+
+.contact-item span {
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #825FA7;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+@media (max-width: 1280px) {
+    .gradient-div {
+        min-height: auto;
+    }
+
+    .custom-color {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gradient-div {
+        padding: 15px;
+    }
+
+    .gradient-text {
+        text-align: center;
+    }
+
+    .m-15 {
+        margin-top: 15px;
+    }
+
+    .contact-info {
+        margin-top: 10px;
+    }
+
+    .custom-color {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    .social-icons a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .col-md-5,
+    .col-md-6 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .gradient-text {
+        text-align: center;
+    }
+
+    .contact-info {
+        margin-top: 5px;
+    }
+
+    .custom-color {
+        padding: 8px 15px;
+        font-size: 0.85rem;
+        margin-bottom: 15px;
+    }
+
+    .social-icons a {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
